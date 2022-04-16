@@ -1,0 +1,89 @@
+
+body{
+  width: 951px;
+  background-color: #990909;
+}
+.title{
+  text-align: center;
+}
+.nav{
+  display: inline-block;
+  width: 202px;
+  background-color: #7d0909;
+  height: 292px;
+  font-size: 0px;
+}
+.nav a{
+  display: block;
+  color: #e95b11;
+  margin-bottom: 25px;
+  font-size: 11px;
+}
+.menu{
+  font-size: 0px;
+
+}
+.menutext{
+  font-size: 0px;
+  margin-bottom: 2px;
+  background-color: black;
+}
+.menutext div{
+  padding: 7px;
+  text-align: center;
+  color: white;
+  font-size: 11px;
+  width: 25%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.menu img{
+
+  box-sizing: border-box;
+  width: 25%;
+  border-top: 21px solid black;
+  border-right: 52px solid black;
+  border-left: 52px solid black;
+
+}
+.context{
+  margin-top: 0px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 575px;
+  font-size: 0px;
+}
+.context p{
+  color: white;
+  font-size: 11px;
+}
+.Title1{
+  margin-top: 0px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 152px;
+  font-size: 0px;
+  background-color: #e3dddd;
+}
+.Title1 h5{
+  background-color: #bdbdbd ;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 0px;
+}
+.Title1 hr{
+  width: 50%;
+}
+.Title1 p{
+  font-size: 11px;
+}
+.body{
+  margin-bottom: 19px;
+}
+
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #e95b11;
+}
