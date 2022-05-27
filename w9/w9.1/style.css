@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@400;600&family=Playfair+Display&display=swap');
+
+.container{
+  width: 1400px;
+  height: 940px;
+  line-height: 34px;
+  box-shadow: 0px 4px 68px #0000001a;
+  margin: 100px auto;
+  padding-top: 1px;
+}
+.box{
+  margin: 150px auto 0 auto;
+  width: 80%;
+}
+.text::first-letter{
+  font-size: 110px;
+  float: left;
+  color: #171717;
+  margin: 0px 15px 0px 0px;
+  font-weight: 400;
+  line-height: 102px;
+  font-family: 'Playfair Display', sans-serif;
+}
+.comment{
+  font-size: 24px;
+  font-style: italic;
+  color: #171717cc;
+}
+.br{
+  font-size: 0;
+}
+.comment::before{
+  content: ' “ ';
+  font-size: 60px;
+  line-height: 40px;
+  color: #171717cc;
+}
+.text{
+  font-size: 18px;
+  color: #171717cc;
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.title{
+  font-size: 42px;
+  color: #171717;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+}
+.button{
+  height: 64px;
+  width: 260px;
+  display: inline-flex;
+  color: #eaa258;
+  border: solid 2px #eaa258;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 100%;
+}
